@@ -1,0 +1,15 @@
+.weatherAnimation {
+    margin-bottom: 20px;
+
+    &_icon {
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    p {
+        text-align: center;
+    }
+}

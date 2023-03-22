@@ -1,0 +1,25 @@
+.searchInputWrapper {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-right: 5px;
+        background-color: transparent;
+        font-size: 18px;
+    }
+
+    button {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../../../assets/icons/search.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,27 @@
+.weatherOtherInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+
+    &_windImg {
+        background-image: url('../../../../assets/windsock.svg');
+    }
+
+    &_humidityImg {
+        background-image: url('../../../../assets/humidity.svg');
+    }
+
+    &_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.iconSettings {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

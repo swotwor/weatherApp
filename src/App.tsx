@@ -1,8 +1,10 @@
+import MainComponent from "./components/MainComponent";
+import './app.scss';
 
 function App() {
   return (
-    <div>
-
+    <div className="appWrapper">
+      <MainComponent />
     </div>
   );
 }

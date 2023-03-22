@@ -1,0 +1,32 @@
+.sunRiseAndSunSet {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 170px;
+
+    &_sunContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &_sunImage {
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.sunRise {
+    background-image: url('../../../../assets/sunrise.svg');
+
+}
+.sunSet {
+    background-image: url('../../../../assets/sunset.svg');
+}

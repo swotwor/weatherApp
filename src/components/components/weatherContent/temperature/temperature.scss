@@ -1,0 +1,22 @@
+.temperature {
+    display: flex;
+    margin-bottom: 20px;
+
+    &_thermometerIcon {
+        background-image: url('../../../../assets/thermometer.svg');
+    }
+    &_text {
+        font-size: 75px;
+    }
+    &_tempIcon {
+        background-image: url('../../../../assets/celsius.svg');
+    }
+}
+
+.iconSize {
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
