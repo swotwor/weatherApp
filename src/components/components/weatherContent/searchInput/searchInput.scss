@@ -5,21 +5,25 @@
     align-items: center;
 
     input {
-        border: 1px solid grey;
+        border: 1px solid rgb(182, 182, 182);
         border-radius: 10px;
         padding: 5px 10px;
         margin-right: 5px;
         background-color: transparent;
         font-size: 18px;
+        outline: none;
+        color: rgb(201, 201, 201);
+        &::placeholder {
+            color: rgb(201, 201, 201);
+        }
     }
 
     button {
         width: 24px;
         height: 24px;
-        background-image: url('../../../../assets/icons/search.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: transparent;
+        background: url('../../../../assets/icons/search.png') no-repeat center center/contain;
+        outline: none;
+        border: none;
+        cursor: pointer;
     }
 }

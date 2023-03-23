@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-.appWrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+body {
+    margin: 0;
+}
+
+.app {
     font-family: Roboto, sans-serif;
 }
